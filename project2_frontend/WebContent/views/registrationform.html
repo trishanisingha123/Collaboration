@@ -1,0 +1,20 @@
+<span style="color:red">{{error.errorMessage}}</span>
+<form>
+Enter Email:<input type="email" ng-model="user.email"><br>
+Enter Password:<input type="password" ng-model="user.password"><br>
+Enter Firstname:<input type="text" ng-model="user.firstname"><br>
+Enter Lastname:<input type="text" ng-model="user.lastname"><br>
+Enter Phonenumber:<input type="text" ng-model="user.phonenumber"><br>
+Select Role:<select ng-model="user.role">
+<option value="STUDENT">Student
+<option value="EMPLOYEE">Employee
+<option value="ALUMNI">Alumni
+
+
+</select>
+<button ng-click="registration(user)" class="btn btn-info">Register</button>
+
+
+
+
+</form>
